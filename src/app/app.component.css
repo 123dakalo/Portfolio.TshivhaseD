@@ -52,12 +52,6 @@ body {
     color: #fcbe24;
     transform: translateY(3);
   }
-  .btn2{
-    padding: 10px 25px;
-    background-color: #fcbe24;
-    border-radius: 4px;
-    color: white;
-  }
   .menu{
     display: none;
     cursor: pointer;
@@ -99,6 +93,18 @@ body {
     }
     nav.active{
       left: 0;
+    }
+    .li_ul, a{
+      list-style: none;
+      text-decoration: none;
+      color: #666666;
+    }
+    .social_mediaicons:hover{
+      color: #fcbe24;
+      transform: translateY(3);
+    }
+    .social_mediaicons{
+      transition: all ease-out 0.3s;
     }
     
     .nav_ul{
